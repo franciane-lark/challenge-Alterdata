@@ -9,6 +9,7 @@ html,body{
   font-size: 14px;
 }
 
+
 .container{
   background: url('/public_html/img/alterdata-01.jpg') no-repeat center fixed;
   background-size: cover;
@@ -16,10 +17,14 @@ html,body{
   min-height: 100%;
 }
 
+.container h1{
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+
 .login{
-  color: #AAA;
+  color: rgb(41, 40, 40);
   margin: 5rem auto;
-  background-color: rgba(9, 6, 141, 0.404);
+  background-color: rgba(161, 159, 250, 0.404);
   padding: 3rem 4rem;
   max-width: 30rem;
   display: flex;
@@ -40,3 +45,7 @@ html,body{
   flex: 1;
 }
 
+.btn {
+  width: 75px;
+  height: 25px;
+}
