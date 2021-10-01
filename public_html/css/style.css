@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 
-html,body{
+html,body, header{
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   height: 100%;
   margin: 0;
   font-size: 14px;
+  color: #7567a7;
 }
 
 .container{
@@ -75,8 +76,21 @@ html,body{
   float: left;
 }
 
+.auxiliar input[type="checkbox"]{
+  margin: 0;
+  padding: 0;
+}
+
 .auxiliar a{
   float: right;
+  color: #FFF;
+  text-decoration: none;
+}
+.login footer{
+  margin: 3rem 0 1rem;
+}
+
+.login footer a{
   color: #FFF;
   text-decoration: none;
 }
