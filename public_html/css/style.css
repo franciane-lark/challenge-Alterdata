@@ -19,7 +19,7 @@ html,body{
 .login{
   color: #AAA;
   margin: 5rem auto;
-  background-color: rgba(9, 6, 141, 0.404);
+  background-color: rgba(0, 0, 0, 0.404);
   padding: 3rem 4rem;
   max-width: 30rem;
   display: flex;
@@ -40,3 +40,43 @@ html,body{
   flex: 1;
 }
 
+.login input{
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  background-color: #393939;
+  color: #FFF;
+  margin: 0.5rem 0 1.5rem;
+  padding: 1rem 2.1rem;
+}
+
+#login, #senha{
+  width: 100%;
+}
+
+.btn {
+  margin: 0.5rem 0 1.5rem;
+  padding: none;
+  outline: none;
+  color: #FFF;
+  border-radius: 0.3rem;
+}
+
+.btn-danger{
+  background-color: #7567a7;
+  height: 41px;
+}
+
+.auxiliar{
+  display: inline-block;
+}
+
+.auxiliar label{
+  float: left;
+}
+
+.auxiliar a{
+  float: right;
+  color: #FFF;
+  text-decoration: none;
+}
