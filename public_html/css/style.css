@@ -100,3 +100,25 @@ html,body{
   padding-top: 2rem;
   padding-left: 4rem;
 }
+
+.input-wrapper{
+  position: relative;
+  color: #FFF;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+}
+
+.input-login::before{
+  content: "\f007";
+  position: absolute;
+  top: 1.5rem;
+  left: 0.6rem;
+}
+
+.input-senha::before{
+  content: "\f084";
+  position: absolute;
+  top: 1.5rem;
+  left: 0.6rem;
+}
+
