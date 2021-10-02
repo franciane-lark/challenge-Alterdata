@@ -2,12 +2,11 @@
   box-sizing: border-box;
 }
 
-html,body, header{
+html,body{
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   height: 100%;
   margin: 0;
   font-size: 14px;
-  color: #7567a7;
 }
 
 .container{
@@ -91,6 +90,13 @@ html,body, header{
 }
 
 .login footer a{
-  color: #FFF;
+  color: #FFF; 
   text-decoration: none;
+}
+
+.container header{
+  font-size: 3rem;
+  color: #393939;
+  padding-top: 2rem;
+  padding-left: 4rem;
 }
